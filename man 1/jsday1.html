@@ -1,0 +1,18 @@
+<html>
+    <body>
+
+    <h1>The Document Object</h1>
+    <h2>The getElementsByClassName() Method</h2>
+    
+    <p>Change the text of the first element with class="example":</p>
+    
+    <div class="example">Element1</div>
+    <div class="example">Hello World!</div>
+    
+    <script>
+    const collection = document.getElementsByClassName("example");
+    collection[1].innerHTML = "Hello World!";
+    </script>
+    
+    </body>
+    </html>
